@@ -1,0 +1,17 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://intercoolerreleases-leaddynocom.netdna-ssl.com/intercooler-0.9.6.min.js"></script>
+  <script>
+    $(function(){
+      $("body").on("MyClientSideEvent", function(){ alert("Invoked Client Event!") });
+    });
+  </script>
+</head>
+
+<body>
+  <div>
+    <a href="#" ic-get-from="/intercooler">Invoke Intercooler Request!</a>
+  </div>
+</body>
+</html>
